@@ -9,5 +9,4 @@ build_project:
     - xcodebuild clean -project XCS-Demo.xcodeproj -scheme XCS-Demo | xcpretty
     - xcodebuild test -project XCS-Demo.xcodeproj -scheme XCS-Demo -configuration Debug -destination 'platform=iOS Simulator,name=iPhone SE,OS=11.1' | xcpretty -s
   tags:
-    - demo
-    - ios
+    - XCS
